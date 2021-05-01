@@ -1,11 +1,25 @@
 # Malware Configuration Extractor
 
+[![build](https://travis-ci.org/c3rb3ru5d3d53c/mwcfg.svg?branch=master)](https://travis-ci.org/c3rb3ru5d3d53c/mwcfg)
+[![license](https://img.shields.io/github/license/c3rb3ru5d3d53c/mwcfg-modules)](https://github.com/c3rb3ru5d3d53c/mwcfg/blob/master/LICENSE)
+[![pypi-version](https://pypip.in/v/mwcfg/badge.png)](https://pypi.org/project/mwcfg/)
+[![pypi-downloads](https://pypip.in/d/mwcfg/badge.png)](https://pypi.org/project/mwcfg/)
+[![pypi-wheel](https://pypip.in/wheel/mwcfg/badge.svg)](https://pypi.org/project/mwcfg/)
+[![issues](https://img.shields.io/github/issues/c3rb3ru5d3d53c/mwcfg-modules)](https://github.com/c3rb3ru5d3d53c/mwcfg/issues)
+[![stars](https://img.shields.io/github/stars/c3rb3ru5d3d53c/mwcfg)](https://github.com/c3rb3ru5d3d53c/mwcfg/stargazers)
+
 <p align="center">
   <img src="https://github.com/c3rb3ru5d3d53c/mwcfg/raw/master/docs/img/logo.png" alt="logo" width="25%">
 </p>
 <p align="center">
   A Malware Configuration Extraction Tool and Modules for MalDuck
 </p>
+
+This project is FREE as in FREE :beer:, use it commercially, privately or however you see fit.
+
+If you like this project and wish to donate :moneybag: to support the fight against malware...
+
+Buy me a :tea:, as I don't drink :beer:, by sending me some ₿ to `16oXesi7uv3jdPZxxwarHSD2f3cNMpaih9`
 
 **Installation:**
 ```bash

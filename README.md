@@ -1,6 +1,6 @@
 # Malware Configuration Extractor
 
-A Malware Configuration Extraction Tool and Modules using MalDuck
+A Malware Configuration Extraction Tool and Modules for MalDuck
 
 **Installation:**
 ```bash

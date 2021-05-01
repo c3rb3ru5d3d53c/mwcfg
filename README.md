@@ -55,3 +55,11 @@ karton-config-extractor --config-file karton.ini --modules modules/
 **Contributing Modules:**
 
 Please refer to [`CONTRIBUTING.md`](https://github.com/c3rb3ru5d3d53c/mwcfg/blob/master/CONTRIBUTING.md)
+
+**Additional Resources:**
+- [`MWDB`](https://github.com/CERT-Polska/mwdb-core)
+- [`MWDB Documentation`](https://mwdb.readthedocs.io/en/latest/)
+- [`Karton Framework`](https://github.com/CERT-Polska/karton)
+- [`Karton Config Extractor`](https://github.com/CERT-Polska/karton-config-extractor)
+- [`MalDuck`](https://github.com/CERT-Polska/malduck)
+- [`MalDuck Documentation`](https://malduck.readthedocs.io/en/latest/)

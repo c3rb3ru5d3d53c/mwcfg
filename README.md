@@ -2,6 +2,8 @@
 
 A Malware Configuration Extraction Tool and Modules for MalDuck
 
+![logo](https://github.com/c3rb3ru5d3d53c/mwcfg/raw/master/docs/img/logo.png)
+
 **Installation:**
 ```bash
 sudo apt install -y python-virtualenv python-is-python3 git-lfs

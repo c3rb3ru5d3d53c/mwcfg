@@ -2,9 +2,9 @@
 
 A Malware Configuration Extraction Tool and Modules for MalDuck
 
-<center>
+<p align="center">
   <img src="https://github.com/c3rb3ru5d3d53c/mwcfg/raw/master/docs/img/logo.png" alt="logo">
-</center>
+</p>
 
 **Installation:**
 ```bash

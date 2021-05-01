@@ -8,7 +8,7 @@ except ImportError:
     from distutils.core import setup, find_packages
 
 __author__  = 'c3r3b3ru5'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 def get_requirements(default):
     result = []

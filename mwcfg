@@ -16,7 +16,7 @@ from malduck.extractor import ExtractManager, ExtractorModules
 log = logging.getLogger(__name__)
 
 __author__  = 'c3rb3ru5'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 def extract_config_worker(modules, file_path):
     if os.stat(file_path).st_size != 0:

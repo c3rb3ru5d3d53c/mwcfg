@@ -3,7 +3,7 @@
 A Malware Configuration Extraction Tool and Modules for MalDuck
 
 <p align="center">
-  <img src="https://github.com/c3rb3ru5d3d53c/mwcfg/raw/master/docs/img/logo.png" alt="logo">
+  <img src="https://github.com/c3rb3ru5d3d53c/mwcfg/raw/master/docs/img/logo.png" alt="logo" width="50%">
 </p>
 
 **Installation:**

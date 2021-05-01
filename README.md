@@ -1,10 +1,10 @@
 # Malware Configuration Extractor
 
 <p align="center">
-  <figure>
-    <img src="https://github.com/c3rb3ru5d3d53c/mwcfg/raw/master/docs/img/logo.png" alt="logo" width="25%">
-    <figcaption>A Malware Configuration Extraction Tool and Modules for MalDuck</figcaption>
-  </figure>
+  <img src="https://github.com/c3rb3ru5d3d53c/mwcfg/raw/master/docs/img/logo.png" alt="logo" width="25%">
+</p>
+<p align="center">
+  A Malware Configuration Extraction Tool and Modules for MalDuck
 </p>
 
 **Installation:**

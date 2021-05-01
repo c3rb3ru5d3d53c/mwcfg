@@ -39,7 +39,7 @@ mwcfg --input tests/azorult/ --list-modules
 ```text
 usage: mwcfg v1.0.0 [-h] [--version] [-i INPUT] -m MODULES [--list-modules] [-d] [-p] [-t THREADS] [-r] [-l LOG]
 
-A Modular Malware Configuration Extraction Utility using MalDuck
+A Modular Malware Configuration Extraction Utility for MalDuck
 
 optional arguments:
   -h, --help            show this help message and exit

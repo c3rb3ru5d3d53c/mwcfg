@@ -35,6 +35,16 @@ mwcfg --input tests/azorult/ --modules modules/ --threads 4 --debug
 mwcfg --input tests/azorult/ --list-modules
 ```
 
+**Installation with PyPi:**
+```
+sudo apt install -y python-virtualenv python-is-python3
+virtualenv venv/
+source venv/bin/activate
+pip install mwcfg
+git clone https://github.com/c3rb3ru5d3d53c/mwcfg-modules.git modules/
+mwcfg --input sample.bin --modules modules/ --debug
+```
+
 **CLI Usage:**
 ```text
 usage: mwcfg v1.0.0 [-h] [--version] [-i INPUT] -m MODULES [--list-modules] [-d] [-p] [-t THREADS] [-r] [-l LOG]

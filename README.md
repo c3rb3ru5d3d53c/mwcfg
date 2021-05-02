@@ -36,7 +36,7 @@ mwcfg --input tests/azorult/ --list-modules
 ```
 
 **Installation with PyPi:**
-```
+```bash
 sudo apt install -y python-virtualenv python-is-python3
 virtualenv venv/
 source venv/bin/activate

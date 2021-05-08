@@ -17,6 +17,8 @@
 
 This project is FREE as in FREE :beer:, use it commercially, privately or however you see fit.
 
+The easiest way to use this project is to visit [`mwcfg.info`](https://mwcfg.info), and start extracting malware config right away!
+
 If you like this project and wish to donate :moneybag: to support the fight against malware...
 
 Buy me a :tea:, as I don't drink :beer:, by sending me some ₿ to `16oXesi7uv3jdPZxxwarHSD2f3cNMpaih9`
@@ -45,7 +47,18 @@ git clone https://github.com/c3rb3ru5d3d53c/mwcfg-modules.git modules/
 mwcfg --input sample.bin --modules modules/ --debug
 ```
 
-**CLI Usage:**
+**Server Installation with Docker:**
+```bash
+sudo apt install -y docker.io make
+sudo usermod -a -G docker $USER
+make mwcfg-server
+make mwcfg-server-status
+make mwcfg-server-logs
+```
+
+Once completed, navigate to https://127.0.0.1
+
+**mwcfg Usage:**
 ```text
 usage: mwcfg v1.0.0 [-h] [--version] [-i INPUT] -m MODULES [--list-modules] [-d] [-p] [-t THREADS] [-r] [-l LOG]
 
@@ -65,6 +78,26 @@ optional arguments:
                         Threads
   -r, --recursive       Recursive
   -l LOG, --log LOG     Log to File
+
+Author: c3rb3ru5
+```
+
+**mwcfg-server Usage:**
+```text
+usage: mwcfg-server v1.0.0 [-h] [--version] [--host HOST] [-p PORT] -m MODULES [-u UPLOADS] [-d]
+
+A Modular Malware Configuration Extraction Server using MalDuck
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  --host HOST           Host
+  -p PORT, --port PORT
+  -m MODULES, --modules MODULES
+                        Modules
+  -u UPLOADS, --uploads UPLOADS
+                        Uploads Directory
+  -d, --debug
 
 Author: c3rb3ru5
 ```

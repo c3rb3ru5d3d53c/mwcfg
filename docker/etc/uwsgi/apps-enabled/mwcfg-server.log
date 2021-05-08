@@ -1,0 +1,70 @@
+2021-05-08T21:49:37+0000 - DEBUG - Started extraction of file /mnt/uploads/38806d8372f8465c4775009362b83b94024fc6a280e3c83c476dec3852bcd2e6:0
+2021-05-08T21:49:37+0000 - DEBUG - Matched rules: ['azorult']
+2021-05-08T21:49:37+0000 - DEBUG - ProcessMemory:DMP:0 - ripping...
+2021-05-08T21:49:37+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T21:49:37+0000 - DEBUG - ProcessMemory:DMP:0 - No luck.
+2021-05-08T21:49:37+0000 - DEBUG - ProcessMemoryPE:DMP:0 - ripping...
+2021-05-08T21:49:37+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T21:49:37+0000 - DEBUG - ProcessMemoryPE:DMP:0 - No luck.
+2021-05-08T21:49:37+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - ripping...
+2021-05-08T21:49:37+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@418977
+2021-05-08T21:49:37+0000 - DEBUG - Azorult found the following config parts: ['family', 'urls']
+2021-05-08T21:49:37+0000 - DEBUG - Azorult tells it's azorult
+2021-05-08T21:49:37+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - found azorult!
+2021-05-08T21:49:37+0000 - DEBUG - {"type": "PE32 executable (GUI) Intel 80386, for MS Windows", "mime": "application/x-dosexec", "md5": "270ed0b099c269f4505da20a35956a1f", "sha1": "54990b8e1331f68ed52b46f1c365e18a46de8326", "sha256": "38806d8372f8465c4775009362b83b94024fc6a280e3c83c476dec3852bcd2e6", "configs": [{"urls": ["a0528438.xsph.ru"], "family": "azorult"}]}
+2021-05-08T22:46:42+0000 - DEBUG - Started extraction of file /mnt/uploads/d47b29df9b7be08fd800dbfb0b2eff205f93520c2765412efdc16cb4aae9b7f5:0
+2021-05-08T22:46:42+0000 - DEBUG - Matched rules: ['azorult']
+2021-05-08T22:46:42+0000 - DEBUG - ProcessMemory:DMP:0 - ripping...
+2021-05-08T22:46:42+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:46:42+0000 - DEBUG - ProcessMemory:DMP:0 - No luck.
+2021-05-08T22:46:42+0000 - DEBUG - ProcessMemoryPE:DMP:0 - ripping...
+2021-05-08T22:46:42+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:46:42+0000 - DEBUG - ProcessMemoryPE:DMP:0 - No luck.
+2021-05-08T22:46:42+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - ripping...
+2021-05-08T22:46:42+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@418977
+2021-05-08T22:46:42+0000 - DEBUG - Azorult found the following config parts: ['family', 'urls']
+2021-05-08T22:46:42+0000 - DEBUG - Azorult tells it's azorult
+2021-05-08T22:46:42+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - found azorult!
+2021-05-08T22:46:42+0000 - DEBUG - {"type": "PE32 executable (GUI) Intel 80386, for MS Windows", "mime": "application/x-dosexec", "md5": "7fb0d0af8be74dfe47a820523901ed02", "sha1": "1b25aa526dd11dd0ac3a32c0a5e977e8ca1be001", "sha256": "d47b29df9b7be08fd800dbfb0b2eff205f93520c2765412efdc16cb4aae9b7f5", "configs": [{"urls": ["http://ff4.zzz.com.ua/index.php"], "family": "azorult"}]}
+2021-05-08T22:46:44+0000 - DEBUG - Started extraction of file /mnt/uploads/d47b29df9b7be08fd800dbfb0b2eff205f93520c2765412efdc16cb4aae9b7f5:0
+2021-05-08T22:46:44+0000 - DEBUG - Matched rules: ['azorult']
+2021-05-08T22:46:44+0000 - DEBUG - ProcessMemory:DMP:0 - ripping...
+2021-05-08T22:46:44+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:46:44+0000 - DEBUG - ProcessMemory:DMP:0 - No luck.
+2021-05-08T22:46:44+0000 - DEBUG - ProcessMemoryPE:DMP:0 - ripping...
+2021-05-08T22:46:44+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:46:44+0000 - DEBUG - ProcessMemoryPE:DMP:0 - No luck.
+2021-05-08T22:46:44+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - ripping...
+2021-05-08T22:46:44+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@418977
+2021-05-08T22:46:44+0000 - DEBUG - Azorult found the following config parts: ['family', 'urls']
+2021-05-08T22:46:44+0000 - DEBUG - Azorult tells it's azorult
+2021-05-08T22:46:44+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - found azorult!
+2021-05-08T22:46:44+0000 - DEBUG - {"type": "PE32 executable (GUI) Intel 80386, for MS Windows", "mime": "application/x-dosexec", "md5": "7fb0d0af8be74dfe47a820523901ed02", "sha1": "1b25aa526dd11dd0ac3a32c0a5e977e8ca1be001", "sha256": "d47b29df9b7be08fd800dbfb0b2eff205f93520c2765412efdc16cb4aae9b7f5", "configs": [{"urls": ["http://ff4.zzz.com.ua/index.php"], "family": "azorult"}]}
+2021-05-08T22:47:02+0000 - DEBUG - Started extraction of file /mnt/uploads/98813ec9a233c4d766b2695508534de59d92ba33ec5a5bf06ed26815eed02a6b:0
+2021-05-08T22:47:02+0000 - DEBUG - Matched rules: ['azorult']
+2021-05-08T22:47:02+0000 - DEBUG - ProcessMemory:DMP:0 - ripping...
+2021-05-08T22:47:02+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:47:02+0000 - DEBUG - ProcessMemory:DMP:0 - No luck.
+2021-05-08T22:47:02+0000 - DEBUG - ProcessMemoryPE:DMP:0 - ripping...
+2021-05-08T22:47:02+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:47:02+0000 - DEBUG - ProcessMemoryPE:DMP:0 - No luck.
+2021-05-08T22:47:02+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - ripping...
+2021-05-08T22:47:02+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@418977
+2021-05-08T22:47:02+0000 - DEBUG - Azorult found the following config parts: ['family', 'urls']
+2021-05-08T22:47:02+0000 - DEBUG - Azorult tells it's azorult
+2021-05-08T22:47:02+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - found azorult!
+2021-05-08T22:47:02+0000 - DEBUG - {"type": "PE32 executable (GUI) Intel 80386, for MS Windows", "mime": "application/x-dosexec", "md5": "66b454d9c5f24f45a44a1eb2751aa3cf", "sha1": "5d5e9b2d9bf7af4b89b43ab6801fd1ec618556ef", "sha256": "98813ec9a233c4d766b2695508534de59d92ba33ec5a5bf06ed26815eed02a6b", "configs": [{"urls": ["f0528018.xsph.ru"], "family": "azorult"}]}
+2021-05-08T22:47:47+0000 - DEBUG - Started extraction of file /mnt/uploads/98813ec9a233c4d766b2695508534de59d92ba33ec5a5bf06ed26815eed02a6b:0
+2021-05-08T22:47:47+0000 - DEBUG - Matched rules: ['azorult']
+2021-05-08T22:47:47+0000 - DEBUG - ProcessMemory:DMP:0 - ripping...
+2021-05-08T22:47:47+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:47:47+0000 - DEBUG - ProcessMemory:DMP:0 - No luck.
+2021-05-08T22:47:47+0000 - DEBUG - ProcessMemoryPE:DMP:0 - ripping...
+2021-05-08T22:47:47+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@17d77
+2021-05-08T22:47:47+0000 - DEBUG - ProcessMemoryPE:DMP:0 - No luck.
+2021-05-08T22:47:47+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - ripping...
+2021-05-08T22:47:47+0000 - DEBUG - Trying Azorult.ref_c2 for ref_c2@418977
+2021-05-08T22:47:47+0000 - DEBUG - Azorult found the following config parts: ['family', 'urls']
+2021-05-08T22:47:47+0000 - DEBUG - Azorult tells it's azorult
+2021-05-08T22:47:47+0000 - DEBUG - ProcessMemoryPE:IMG:400000 - found azorult!
+2021-05-08T22:47:47+0000 - DEBUG - {"type": "PE32 executable (GUI) Intel 80386, for MS Windows", "mime": "application/x-dosexec", "md5": "66b454d9c5f24f45a44a1eb2751aa3cf", "sha1": "5d5e9b2d9bf7af4b89b43ab6801fd1ec618556ef", "sha256": "98813ec9a233c4d766b2695508534de59d92ba33ec5a5bf06ed26815eed02a6b", "configs": [{"urls": ["f0528018.xsph.ru"], "family": "azorult"}]}

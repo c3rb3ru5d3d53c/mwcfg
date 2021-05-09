@@ -22,7 +22,7 @@ html = """
         <title>mwcfg</title>
         <script>
         document.addEventListener("DOMContentLoaded", function(event) {
-            document.getElementById('curl-example').innerHTML = 'curl --upload-file sample.bin ' + document.location.href;
+            document.getElementById('curl-example').innerHTML = 'curl -X POST --upload-file sample.bin ' + document.location.href;
             var form = document.querySelector('form');
             form.addEventListener('change', function() {
                 document.getElementById('upload-message').innerHTML = document.getElementById('upload-input').files[0].name;

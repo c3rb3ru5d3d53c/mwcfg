@@ -36,8 +36,15 @@ mwcfg-server-start:
 	fi
 
 mwcfg-server-stop:
-	@ID=`docker ps | grep "mwcfg-server:${version}" | grep -Po '^[a-f0-9]+'`; docker stop $${ID} > /dev/null
-	@echo "info: mwcfg-server:${version} stopped"
+	@ID=`docker ps | grep "mwcfg-server:${version}" | grep -Po '^[a-f0-9]+'`; \
+		if [ ! -z "$${ID}" ]; then \
+			docker stop $${ID} > /dev/null; \
+			echo "mwcfg-server:${version} stopped"; \
+		else \
+			echo "mwcfg-server:${version} is not running"; \
+		fi
+
+mwcfg-server-restart: mwcfg-server-stop mwcfg-server-start
 
 mwcfg-server-status:
 	@if [ -z "`docker ps | grep "mwcfg-server:${version}" | grep -Po '^[a-f0-9]+'`" ]; then \

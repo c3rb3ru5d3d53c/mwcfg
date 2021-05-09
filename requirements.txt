@@ -1,2 +1,3 @@
 malduck==4.1.0
 python-magic==0.4.22
+Flask==1.1.2

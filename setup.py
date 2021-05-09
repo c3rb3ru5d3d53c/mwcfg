@@ -31,7 +31,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     install_requires=get_requirements('requirements.txt'),
-    scripts=['mwcfg'],
+    scripts=['mwcfg', 'mwcfg-server'],
     packages=find_packages(),
     include_package_data=True,
     classifiers=[

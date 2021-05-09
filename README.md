@@ -61,6 +61,11 @@ make mwcfg-server-clean  # Delete Server
 
 Once completed, navigate to https://127.0.0.1
 
+You can alternatively upload samples and get results by doing:
+```bash
+curl --silent --insecure -X POST --upload-file sample.bin https://127.0.0.1
+```
+
 **mwcfg Usage:**
 ```text
 usage: mwcfg v1.0.0 [-h] [--version] [-i INPUT] -m MODULES [--list-modules] [-d] [-p] [-t THREADS] [-r] [-l LOG]

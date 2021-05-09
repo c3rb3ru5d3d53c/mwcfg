@@ -51,9 +51,12 @@ mwcfg --input sample.bin --modules modules/ --debug
 ```bash
 sudo apt install -y docker.io make
 sudo usermod -a -G docker $USER
-make mwcfg-server
-make mwcfg-server-status
-make mwcfg-server-logs
+make mwcfg-server        # Build Server
+make mwcfg-server-start  # Start the Server
+make mwcfg-server-status # Check Running Status
+make mwcfg-server-logs   # Tail Logs
+make mwcfg-server-stop   # Stop Server
+make mwcfg-server-clean  # Delete Server
 ```
 
 Once completed, navigate to https://127.0.0.1

@@ -26,14 +26,13 @@ RUN mkdir -p /var/www/html/
 RUN mkdir -p /etc/mwcfg-server/
 WORKDIR /opt/mwcfg-server/
 RUN python3 setup.py install
-RUN touch /var/log/uwsgi/app/mwcfg-server.log
 RUN chown -R www-data:www-data /var/log/uwsgi/app/
-# CMD tail -f /var/log/nginx/access.log /var/log/nginx/error.log /var/log/uwsgi/app/mwcfg-server.log
 CMD uwsgi \
     --plugin /usr/lib/uwsgi/plugins/python3_plugin.so \
     --daemonize \
     --ini /etc/uwsgi/apps-enabled/mwcfg-server.ini && \
     /etc/init.d/nginx start && \
+    touch /var/log/uwsgi/app/mwcfg-server.log && \
     tail -f /var/log/nginx/access.log \
     /var/log/nginx/error.log \
     /var/log/uwsgi/app/mwcfg-server.log

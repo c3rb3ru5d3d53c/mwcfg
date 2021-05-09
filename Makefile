@@ -18,7 +18,7 @@ mwcfg-server:
 
 mwcfg-server-start:
 	@if [ -z "`docker ps | grep "mwcfg-server:${version}" | grep -Po '^[a-f0-9]+'`" ]; then \
-		mkdir -p uploads/
+		mkdir -p uploads/; \
 		docker run \
 			-d \
 			--rm \

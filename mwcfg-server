@@ -3,6 +3,7 @@
 import os
 import json
 import magic
+import pkgutil
 import tempfile
 import hashlib
 import argparse
@@ -203,11 +204,7 @@ html = """
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <br>
-                    <p>Azorult</p>
-                    <p>Citadel</p>
-                    <p>Hancitor</p>
-                    <p>44Caliber Stealer</p>
-                    <p>ZLoader</p>
+                    <!--MODULES-->
                 </div>
             </div>
         </div>
@@ -252,6 +249,13 @@ def extract_config_worker(args, data):
         'configs': ext.config
     }
     log.debug(json.dumps(result))
+    return result
+
+def get_modules(args):
+    result = ''
+    modules = [name for _, name, _ in pkgutil.iter_modules([args.modules])]
+    for module in modules:
+        result = result + '<p>' + module + '<p>\n'
     return result
 
 app = Flask(__name__)
@@ -308,6 +312,8 @@ parser.add_argument(
     help='Log to File'
 )
 args = parser.parse_args()
+
+html = html.replace('<!--MODULES-->', get_modules(args))
 
 level = logging.ERROR
 log_format = '%(asctime)s - %(levelname)s - %(message)s'

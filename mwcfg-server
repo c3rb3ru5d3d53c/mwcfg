@@ -175,6 +175,10 @@ html = """
             text-decoration: none;
             cursor: pointer;
         }
+        footer {
+            margin-top: 0px;
+            text-align: center;
+        }
     </style>
     <body>
         <p style="text-align:center;">
@@ -194,23 +198,26 @@ html = """
             <button type="submit">Upload</button>
         </form>
         <div class="container">
-        <pre><!--RESULTS--></pre>
-        </pre>
-        <div id="configs-modal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Azorult</p>
-                <p>Citadel</p>
-                <p>Hancitor</p>
-                <p>44Caliber Stealer</p>
-                <p>ZLoader</p>
+            <pre><!--RESULTS--></pre>
+            <div id="configs-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <br>
+                    <p>Azorult</p>
+                    <p>Citadel</p>
+                    <p>Hancitor</p>
+                    <p>44Caliber Stealer</p>
+                    <p>ZLoader</p>
+                </div>
             </div>
         </div>
-        </div>
     </body>
-    <footer class="container">
-        <p>Created By: <a href="https://twitter.com/c3rb3ru5d3d53c" target="_blank">c3rb3ru5d3d53c</a></p>
-        <p>ALL UPLOADS ARE <a href="https://www.cisa.gov/tlp" target="_blank">TLP:WHITE</a></p>
+    <footer>
+        <p">
+        <a href="https://twitter.com/c3rb3ru5d3d53c" target="_blank">c3rb3ru5d3d53c</a> |
+        <a href="https://github.com/c3rb3ru5d3d53c/mwcfg" target="_blank">GitHub</a> |
+        <a href="https://www.cisa.gov/tlp" target="_blank">TLP:WHITE</a>
+        </p>
     </footer>
 </html>
 """

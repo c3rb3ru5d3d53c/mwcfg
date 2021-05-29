@@ -3,3 +3,4 @@ python-magic==0.4.22
 Flask==1.1.2
 unicorn==1.0.2
 pycrypto==2.6.1
+requests==2.25.1

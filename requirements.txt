@@ -4,3 +4,4 @@ Flask==1.1.2
 unicorn==1.0.2
 pycryptodome==3.16.0
 requests==2.25.1
+hexdump==3.3

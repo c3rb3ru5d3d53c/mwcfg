@@ -1,3 +1,6 @@
 [submodule "modules"]
 	path = modules
 	url = https://github.com/c3rb3ru5d3d53c/mwcfg-modules.git
+[submodule "deps/dotnetfile"]
+	path = deps/dotnetfile
+	url = https://github.com/pan-unit42/dotnetfile.git

@@ -23,6 +23,14 @@ If you like this project and wish to donate :moneybag: to support the fight agai
 
 Buy me a :tea:, as I don't drink :beer:, by sending me some ₿ to `16oXesi7uv3jdPZxxwarHSD2f3cNMpaih9`
 
+**Dependancies**
+```bash
+sudo apt install gnupg ca-certificates
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+sudo apt install mono-devel
+```
+
 **Installation:**
 ```bash
 sudo apt install -y python-virtualenv python-is-python3 git-lfs

@@ -5,3 +5,5 @@ unicorn==1.0.2
 pycryptodome==3.16.0
 requests==2.25.1
 hexdump==3.3
+pythonnet==3.0.1
+dnfile==0.12.0

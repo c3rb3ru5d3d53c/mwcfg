@@ -3,8 +3,8 @@
 PWD := $(shell pwd)
 USER_ID := $(shell id -u ${USER})
 GROUP_ID := $(shell id -g ${USER})
-tag=20.04
-version=1.0.1
+tag=22.04
+version=1.1.0
 
 mwcfg-server:
 	@if [ -z "`docker images -q mwcfg-server:${version} 2> /dev/null`" ]; then \

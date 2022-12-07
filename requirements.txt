@@ -1,9 +1,10 @@
-malduck==4.1.0
+malduck==4.3.0
 python-magic==0.4.22
 Flask==1.1.2
-unicorn==1.0.2
+unicorn==2.0.1
 pycryptodome==3.16.0
 requests==2.25.1
 hexdump==3.3
 pythonnet==3.0.1
-dnfile==0.12.0
+dnfile==0.11.0
+dotnetfile @ git+https://github.com/pan-unit42/dotnetfile.git#egg=dotnetfile
